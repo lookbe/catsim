@@ -9,16 +9,6 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.animation.rigging": {
-      "version": "1.3.0",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.burst": "1.4.1",
-        "com.unity.test-framework": "1.1.24"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.burst": {
       "version": "1.8.12",
       "depth": 1,
@@ -29,16 +19,9 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.collab-proxy": {
-      "version": "2.2.0",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
     "com.unity.collections": {
       "version": "1.4.0",
-      "depth": 2,
+      "depth": 3,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.6.6",
@@ -46,50 +29,6 @@
         "com.unity.test-framework": "1.1.31"
       },
       "url": "https://packages.unity.com"
-    },
-    "com.unity.demoteam.digital-human": {
-      "version": "https://github.com/Unity-Technologies/com.unity.demoteam.digital-human.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.burst": "1.2.3",
-        "com.unity.collections": "0.1.1-preview",
-        "com.unity.mathematics": "1.1.0",
-        "com.unity.render-pipelines.high-definition": "7.3.1",
-        "com.unity.timeline": "1.2.17"
-      },
-      "hash": "8d61864050277f2c4574df7b31beb70093a8c263"
-    },
-    "com.unity.demoteam.digital-human.sample": {
-      "version": "https://github.com/Unity-Technologies/com.unity.demoteam.digital-human.sample.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.demoteam.digital-human": "0.1.1-preview",
-        "com.unity.animation.rigging": "0.2.6-preview",
-        "com.unity.test-framework": "1.1.18"
-      },
-      "hash": "15e3fe2c88fe5c5064ad753ee9d121060eab867a"
-    },
-    "com.unity.demoteam.hair": {
-      "version": "https://github.com/Unity-Technologies/com.unity.demoteam.hair.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {
-        "com.unity.burst": "1.4.1",
-        "com.unity.collections": "0.15.0-preview.21",
-        "com.unity.mathematics": "1.2.6",
-        "com.unity.render-pipelines.core": "10.2.2",
-        "com.unity.shadergraph": "10.2.2"
-      },
-      "hash": "46a8b132c30f07fba0fc7707f5f4d9dcfb24dbf7"
-    },
-    "com.unity.demoteam.mesh-to-sdf": {
-      "version": "https://github.com/Unity-Technologies/com.unity.demoteam.mesh-to-sdf.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "1f8ee658aabe2b588aae7d0b635a9941266a52ef"
     },
     "com.unity.ext.nunit": {
       "version": "2.0.5",
@@ -136,7 +75,7 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
-      "depth": 3,
+      "depth": 4,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -152,32 +91,6 @@
         "com.unity.modules.terrain": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0",
         "com.unity.rendering.light-transport": "1.0.0"
-      }
-    },
-    "com.unity.render-pipelines.high-definition": {
-      "version": "16.0.5",
-      "depth": 1,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.mathematics": "1.2.4",
-        "com.unity.collections": "1.4.0",
-        "com.unity.burst": "1.8.9",
-        "com.unity.modules.video": "1.0.0",
-        "com.unity.modules.animation": "1.0.0",
-        "com.unity.modules.imageconversion": "1.0.0",
-        "com.unity.modules.terrain": "1.0.0",
-        "com.unity.render-pipelines.core": "16.0.5",
-        "com.unity.shadergraph": "16.0.5",
-        "com.unity.visualeffectgraph": "16.0.5",
-        "com.unity.render-pipelines.high-definition-config": "16.0.5"
-      }
-    },
-    "com.unity.render-pipelines.high-definition-config": {
-      "version": "16.0.5",
-      "depth": 2,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.render-pipelines.core": "16.0.5"
       }
     },
     "com.unity.render-pipelines.universal": {
@@ -247,15 +160,6 @@
       "dependencies": {
         "com.unity.modules.ui": "1.0.0",
         "com.unity.modules.imgui": "1.0.0"
-      }
-    },
-    "com.unity.visualeffectgraph": {
-      "version": "16.0.5",
-      "depth": 2,
-      "source": "builtin",
-      "dependencies": {
-        "com.unity.shadergraph": "16.0.5",
-        "com.unity.render-pipelines.core": "16.0.5"
       }
     },
     "com.unity.modules.accessibility": {
