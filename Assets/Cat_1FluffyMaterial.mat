@@ -275,8 +275,8 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _SecondarySmoothness: 0.541
-    - _SecondarySpecularIntensity: 0.98
+    - _SecondarySmoothness: 0.893
+    - _SecondarySpecularIntensity: 0.01
     - _SecondarySpecularMultiplier: 0.5
     - _SecondarySpecularShift: -0.139
     - _Smoothness: 0.819
@@ -290,7 +290,7 @@ Material:
     - _SpecularMultiplier: 0.5
     - _SpecularOcclusionMode: 1
     - _SpecularShift: 0.125
-    - _SpeculatInensity: 0.122
+    - _SpeculatInensity: 0.103
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 8
