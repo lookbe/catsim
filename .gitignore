@@ -75,3 +75,5 @@ shadertoolsconfig.json
 .vsconfig
 /Assets/HLSLToolsForVisualStudioConfigGenerator*
 /Assets/UnityChan*
+/.utmp
+/fur_BurstDebugInformation_DoNotShip
